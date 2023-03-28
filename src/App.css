@@ -18,6 +18,25 @@
   width: 100%;
   height: 25px;
 }
+.items-container{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 350px;
+  margin: auto;
+  gap: 2px;
+  border: 1px solid blanchedalmond ;
+  padding: 5px;
+ border-radius: 5px;
 
+}
+
+.item{
+  min-height: 100px;
+  text-align: justify;
+  word-wrap: break-word;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1%;
+}
 
 
